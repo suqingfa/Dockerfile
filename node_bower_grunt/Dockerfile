@@ -2,7 +2,7 @@
 # Node.js Bower & Grunt Dockerfile
 #
 
-FROM library/node:slim
+FROM node:alpine
 
 MAINTAINER suqingfa enmoton@qq.com
 
