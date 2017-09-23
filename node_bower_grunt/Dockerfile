@@ -11,4 +11,4 @@ RUN npm install -g bower grunt-cli && echo '{ "allow_root": true }' > /root/.bow
 
 WORKDIR /data
 
-CMD ["bash"] 
+CMD ["sh"] 
