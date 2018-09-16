@@ -15,4 +15,4 @@ RUN steamcmd +login anonymous +force_install_dir /dst +app_update 343050 validat
 ADD entrypoint /
 RUN chmod +x /entrypoint
 
-CMD ["/entrypoint"]
+ENTRYPOINT ["/entrypoint"]
