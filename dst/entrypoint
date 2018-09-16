@@ -1,0 +1,8 @@
+#!/bin/bash
+
+cd /dst/bin
+
+./dontstarve_dedicated_server_nullrenderer -console -cluster Server -shard Master &
+./dontstarve_dedicated_server_nullrenderer -console -cluster Server -shard Caves &
+
+exec $@
