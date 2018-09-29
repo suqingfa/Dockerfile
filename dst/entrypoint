@@ -3,6 +3,6 @@
 cd /dst/bin
 
 
-./dontstarve_dedicated_server_nullrenderer -console -cluster Server -shard Caves &
+./dontstarve_dedicated_server_nullrenderer -console -cluster Server -shard Caves > /dev/null 2>&1  &
 
 ./dontstarve_dedicated_server_nullrenderer -console -cluster Server -shard Master
